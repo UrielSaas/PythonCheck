@@ -3,4 +3,4 @@ arrow==0.12.1
 Flask==1.0
 celery==4.4.0
 Jinja2==2.11.3
-dnspython==1.15.0
+dnspython==2.6.0
