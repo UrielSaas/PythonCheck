@@ -1,16 +1,32 @@
-numpy==1.0.0
-pandas==1.0.0
-py_mini_racer==1.0.0
-TA_Lib==1.0.0
-arrow==1.0.0
-bokeh==1.0.0
-PyMySQL==1.0.0
-requests==1.0.0
-Logbook==1.0.0
-SQLAlchemy==1.0.0
-tornado==1.0.0
-tqdm==1.0.0
-easytrader==1.0.0
-beautifulsoup4==1.0.0
-pycryptodome==1.0.0
-python_dateutil==1.0.0
+# Vulnerable Libraries for Security Testing
+# IMPORTANT: ONLY USE IN CONTROLLED TESTING ENVIRONMENTS
+
+# Older versions of Django with known vulnerabilities
+django==1.11.29  # Multiple vulnerabilities, end of life
+
+# Older Flask version with potential security issues
+flask==0.12.2  # Multiple vulnerabilities
+
+# Pillow with known CVEs
+pillow==6.2.0  # Multiple image processing vulnerabilities
+
+# Requests with security concerns
+requests==2.20.0  # Multiple vulnerabilities
+
+# Older version of urllib3 with SSL issues
+urllib3==1.24.2  # SSL/TLS vulnerabilities
+
+# PyYAML with deserialization vulnerabilities
+pyyaml==5.1  # Remote code execution potential
+
+# An older version of cryptography with known issues
+cryptography==2.3  # Multiple vulnerabilities
+
+# Older Paramiko version with potential security problems
+paramiko==2.4.2  # Multiple vulnerabilities
+
+# Jinja2 with potential SSTI vulnerabilities
+jinja2==2.10  # Server-side template injection risks
+
+# Older version of lxml with XML parsing vulnerabilities
+lxml==4.3.0  # XML external entity (XXE) vulnerability
