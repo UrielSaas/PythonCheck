@@ -2,7 +2,7 @@
 # IMPORTANT: ONLY USE IN CONTROLLED TESTING ENVIRONMENTS
 
 # Older versions of Django with known vulnerabilities
-django==1.11.29  # Multiple vulnerabilities, end of life
+django==3.2.14  # Multiple vulnerabilities, end of life
 
 # Older Flask version with potential security issues
 flask==0.12.2  # Multiple vulnerabilities
