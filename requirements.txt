@@ -5,7 +5,7 @@
 django==1.11.29  # Multiple vulnerabilities, end of life
 
 # Older Flask version with potential security issues
-flask==0.12.2  # Multiple vulnerabilities
+flask==2.3.2  # Multiple vulnerabilities
 
 # Pillow with known CVEs
 pillow==6.2.0  # Multiple image processing vulnerabilities
