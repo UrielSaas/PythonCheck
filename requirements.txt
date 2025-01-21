@@ -14,7 +14,7 @@ pillow==6.2.0  # Multiple image processing vulnerabilities
 requests==2.20.0  # Multiple vulnerabilities
 
 # Older version of urllib3 with SSL issues
-urllib3==1.24.2  # SSL/TLS vulnerabilities
+urllib3==1.26.19  # SSL/TLS vulnerabilities
 
 # PyYAML with deserialization vulnerabilities
 pyyaml==5.1  # Remote code execution potential
