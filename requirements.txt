@@ -26,7 +26,7 @@ cryptography==2.3  # Multiple vulnerabilities
 paramiko==2.4.2  # Multiple vulnerabilities
 
 # Jinja2 with potential SSTI vulnerabilities
-jinja2==2.10  # Server-side template injection risks
+jinja2==3.1.5  # Server-side template injection risks
 
 # Older version of lxml with XML parsing vulnerabilities
 lxml==4.3.0  # XML external entity (XXE) vulnerability
