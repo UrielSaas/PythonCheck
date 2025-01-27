@@ -17,7 +17,7 @@ requests==2.20.0  # Multiple vulnerabilities
 urllib3==1.24.2  # SSL/TLS vulnerabilities
 
 # PyYAML with deserialization vulnerabilities
-pyyaml==5.1  # Remote code execution potential
+pyyaml==5.4  # Remote code execution potential
 
 # An older version of cryptography with known issues
 cryptography==2.3  # Multiple vulnerabilities
