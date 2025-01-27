@@ -23,7 +23,7 @@ pyyaml==5.1  # Remote code execution potential
 cryptography==2.3  # Multiple vulnerabilities
 
 # Older Paramiko version with potential security problems
-paramiko==2.4.2  # Multiple vulnerabilities
+paramiko==3.4.0  # Multiple vulnerabilities
 
 # Jinja2 with potential SSTI vulnerabilities
 jinja2==2.10  # Server-side template injection risks
