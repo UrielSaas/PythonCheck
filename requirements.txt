@@ -11,7 +11,7 @@ flask==0.12.2  # Multiple vulnerabilities
 pillow==6.2.0  # Multiple image processing vulnerabilities
 
 # Requests with security concerns
-requests==2.20.0  # Multiple vulnerabilities
+requests==2.32.2  # Multiple vulnerabilities
 
 # Older version of urllib3 with SSL issues
 urllib3==1.24.2  # SSL/TLS vulnerabilities
